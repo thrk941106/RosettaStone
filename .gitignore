@@ -14,7 +14,18 @@ CTestTestfile.cmake
 
 # Visual Studio Code files
 /.vscode
-*.code-workspace 
+*.code-workspace
 
 # OSX files
 .DS_Store
+
+# Docusaurus
+node_modules
+lib/core/metadata.js
+lib/core/MetadataBlog.js
+website/translated_docs
+website/build/
+website/yarn.lock
+website/node_modules
+website/i18n/*
+!website/i18n/en.json
